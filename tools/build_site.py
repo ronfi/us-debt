@@ -34,6 +34,16 @@ LANG = {
     switch='<span class="on" lang="zh-CN">中文</span><a href="en/" hreflang="en" lang="en">English</a>',
     pv='本页访问 <span id="busuanzi_value_page_pv"></span> 次(计数由第三方脚本 busuanzi 提供)',
     archnote='这是 {d} 的存档版本,数据与文字停留在当时;最新版见',
+    disclaimer=('<h2>免责声明</h2>'
+      '<p>本页为条件情景研究,<b>非投资建议</b>,不构成任何买卖建议或收益承诺。</p>'
+      '<p><b>三个情景的概率是主观判断,不是测算</b>,并附校准声明:此类判断历史上系统性高估变化速度。'
+      '条件窗口(如 2027-2028)是四个日历锚点的重叠区,<b>不是日期预测</b> —— 本页的立场恰恰是时点不可测(CBO 原话:不存在可识别的引爆点)。</p>'
+      '<p><b>T1–T6 六个触发器是观察用的判据,不是交易信号。</b>它们钉死判定源、触发后不回改,'
+      '用途是让"发生了什么"可被裁决,而不是给出买卖时点。</p>'
+      '<p><b>标 ⚠ 的数字是单一来源,引用时不得脱掉标记。</b>它们在本页只用于画窗口、不用于下判定;'
+      '截图转发若把限定词裁掉,读到的就是一个本页并不主张的断言(分级见 §10.1)。</p>'
+      '<p>时效性数字有明确的截止日,写在页头与各处。宏观数据会被上修下修、口径会被重述;'
+      '本页对自身被推翻的论断给出正误对照(§十),<b>错误留在原处,不删除改写</b>。</p>'),
     support='打赏 / Support', support_qr='展开二维码', support_copy='点击复制',
     support_note='这个项目会长期免费、公开地维护下去。如果这份核查帮您在一堆互相矛盾的数字里分清了口径,那就是它存在的意义。'
                  '您的支持是它继续维护的动力,无论金额大小,都衷心感谢。'
@@ -59,6 +69,13 @@ LANG = {
     switch='<a href="../" hreflang="zh-CN" lang="zh-CN">中文</a><span class="on" lang="en">English</span>',
     pv='<span id="busuanzi_value_page_pv"></span> page views (counted by the third-party busuanzi script)',
     archnote='This is the archived {d} edition; data and text are as of then. Latest:',
+    disclaimer=('<h2>Disclaimer</h2>'
+      '<p>This page is conditional scenario research. It is <b>not investment advice</b> and constitutes no recommendation to buy or sell, and no promise of any return.</p>'
+      '<p><b>The probabilities on the three scenarios are subjective judgements, not calculations</b>, and carry a calibration disclaimer: judgements of this kind have historically over-estimated the speed of change. '
+      'A conditional window (such as 2027-2028) is where four calendar anchors overlap — <b>it is not a date forecast</b>. The position of this page is precisely that the timing is not forecastable (the CBO\'s own words: there is no identifiable tipping point).</p>'
+      '<p><b>The six triggers T1–T6 are criteria for observation, not trading signals.</b> Their adjudication sources are fixed and they are never revised after they fire; their purpose is to make "what happened" adjudicable, not to time a trade.</p>'
+      '<p><b>Figures marked ⚠ are single-source and must not be quoted with the marker stripped off.</b> On this page they are used to size a window, never to settle one; crop the qualifier out of a screenshot and what is left is a claim this page does not make (grading in §10.1).</p>'
+      '<p>Time-sensitive figures carry an explicit cut-off, stated in the masthead and throughout. Macro data gets revised and measures get restated; where this page\'s own claims were overturned it gives the wrong reading beside the right one (§10), and <b>the mistakes stay where they were made rather than being quietly rewritten</b>.</p>'),
     support='Support', support_qr='show QR code', support_copy='click to copy',
     support_note='This project will stay free and public for the long run. If this audit ever saved you from mixing up two different measures of the same number, that is what it is for. '
                  'Your support keeps it maintained; any amount is sincerely appreciated. '
@@ -183,7 +200,11 @@ figure.fig{margin:1.6em 0;overflow-x:auto}
 figure.fig figcaption{color:var(--ink2);font-size:12px;margin-top:8px;line-height:1.6}
 
 .stale{background:var(--mark);color:var(--ink-em);padding:11px 16px;border-radius:3px;font-size:13.5px;margin:0 0 22px}
-.support{margin:52px 0 0;border:1px solid var(--rule);border-radius:3px;background:var(--panel)}
+.disclaimer{margin:46px 0 0;padding:20px 22px;border:1px solid var(--rule);border-left:3px solid var(--red);border-radius:3px;background:var(--panel)}
+.disclaimer h2{margin:0 0 .4em;padding:0;border:0;font-size:17px}
+.disclaimer p{margin:.6em 0;font-size:13.5px;line-height:1.8;color:var(--ink2)}
+.disclaimer b{color:var(--ink-em)}
+.support{margin:22px 0 0;border:1px solid var(--rule);border-radius:3px;background:var(--panel)}
 .support>summary{padding:14px 20px;cursor:pointer;color:var(--accent);font-weight:600;font-size:15px;list-style:none}
 .support>summary::-webkit-details-marker{display:none}
 .support>summary::before{content:"▸ ";color:var(--ink2);font-weight:400}
@@ -376,6 +397,7 @@ document.addEventListener('DOMContentLoaded',function(){
 <nav class="toc" aria-label="{T['toc']}"><div class="lbl">{T['toc']}</div><ol>{''.join(toc)}</ol><div class="legend">{legend}</div></nav>
 <main>
 {stale_note}{body}
+<section class="disclaimer">{T['disclaimer']}</section>
 {support}
 </main>
 </div>
