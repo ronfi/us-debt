@@ -318,6 +318,7 @@ def build(lang):
         print(f'· 跳过 {lang}:{T["src"]} 不存在'); return
     md = src.read_text(encoding='utf8')
     lines = md.split('\n'); title = lines[0].lstrip('# ').strip()
+    lines = [re.sub(r'~~(.+?)~~', r'<del>\1</del>', l) for l in lines]   # 删除线:python-markdown 默认不支持 ~~,更正记录需要可见的删除线
     body = markdown.markdown('\n'.join(lines[1:]), extensions=['tables', 'fenced_code', 'toc'],
                              extension_configs={'toc': {'toc_depth': '3', 'slugify': lambda v, s: re.sub(r'[^\w一-鿿]+', '-', v).strip('-').lower()}})
     # 两级目录:每个 h2 下挂它的 h3(章内导航,60k 字的文章没有它只能靠滚)
