@@ -812,6 +812,91 @@ Rather than enumerate ways around the ban, the proposed §15.10(c)(4)(i) creates
 
 **⇒ So the rumour takes a true event and misplaces its subject and its size**: the true event is that **a structural repatriation of Japanese private capital is under way (about -$90B over four months)**; the rumour turns it into **an emergency central-bank operation**. ⚠ **The investment implications are completely different**: the former is **a slow variable, foreseeable and measurable monthly**; the latter, if true, would be **an acute event, not foreseeable**. **Under this report's rules, only the former is tracked (T3); no judgement is adjusted for the latter.**
 
+### 7.6 🔴 Counterfactual: if the Fed keeps rates high for another 3–5 years — does the "debasement tax" never arrive? (added 2026-09-27)
+
+> **The question as asked**: the report says the way out of $40 trillion is negative real rates; but as long as inflation does not come down, the Fed will hike or hold rates high — **"not default but a debasement tax" looks hard to deliver**. If high rates last another 3–5 years, how does the US debt problem develop?
+
+**First, concede what is mechanically right in the question**: T6 has just widened from +0.29 to **+0.54pp** this week (§8.3), moving away from ignition; the five reasons in §6.2.4b say precisely that the Fed will **not volunteer** to cooperate; and the §8.2 baseline itself puts the timescale "in decades". ⇒ **In the years the Fed holds firm, a "smooth delivery of the debasement tax" does not happen.** But two points need correcting before answering "what happens in 3–5 years".
+
+#### 7.6.1 Two corrections
+
+**① The debasement tax has more than one channel.** Long-bond holders have been paying it for six years: TLT is down **−55.1%** in real terms from its 2020 peak (§7.1; most of that is duration repricing, but the directional lesson stands). A negative real **policy** rate (T6) means "holders of cash and short bills start paying too" — and bills are 22.2% of marketable debt, a third rolls over within 12 months, and stablecoin reserves are locked into the short end by the GENIUS framework (§1.2) ⇒ **the largest tax base right now is exactly the short end, which is exactly the end the Fed is protecting. The question is precisely right about the short end.**
+
+**② More importantly: holding rates high is not an "alternative" to the debasement tax; it is its "accumulation phase".** The tax is deferred, the bill does not disappear — it compounds at 4–5% into a larger stock, and more has to be collected once ignition comes. **A widening T6 gap ≠ lower risk; the risk has changed form.**
+
+#### 7.6.2 A rough 3–5 year projection (all inputs are this report's primary figures; assumptions below the table; ⚠ a rough projection, not a forecast)
+
+**Starting point**: rolling 12-month net interest $1,061.0B / debt held by the public $32.42T ⇒ **the effective rate on the stock is only 3.27%**, while new bills pay 3.88% and the 30Y 5.2–5.3% — **the stock is still repricing upward**: a third rolls each year, 49% over 2026–2028 (§1.2). Assume new issues at 4.5%, an annual deficit of $2.1T (the CBO's revised FY26 figure), and a third of the stock repricing at the new-issue rate each year:
+
+| Year | Debt held by the public | Effective rate | Net interest | Net interest / net receipts (receipts +3.5% a year) | Same (receipts +5% a year, 3% inflation case) |
+|---|---|---|---|---|---|
+| Now (rolling 12 months) | $32.4T | 3.27% | $1.06T | **19.75%** | 19.75% |
+| 2027 | 34.5 | 3.73% | 1.29 | **23.2% (crosses the T1 threshold of 22%)** | 22.8% |
+| 2028 | 36.6 | 4.02% | 1.47 | 25.6% | 24.8% |
+| 2029 | 38.7 | 4.20% | 1.62 | 27.3% | 26.1% |
+| 2030 | 40.8 | 4.31% | 1.76 | 28.5% | 26.9% |
+| 2031 | 42.9 | 4.38% | 1.88 | **29.4%** | 27.4% |
+
+With new issues at 5.0%: the 2031 effective rate is 4.83%, net interest $2.07T, a share of **32.5%**. ⚠ **Limits of the assumptions**: linear receipts (FY26 actual +3.2%), a fixed deficit, no recession, no resumption of Fed remittances; **but the conclusion is insensitive to them — under all three parameter sets T1 crosses in 2027, and within five years interest eats 27–33% of net receipts**. ⚠ Read together with the §2.3 caution against misreading: after crossing 18% in 1991 what followed was consolidation, not crisis — a threshold is not a countdown, **but 30% and 18% are not the same order of magnitude**.
+
+**The more fundamental line: the longer high rates last, the more likely r − g turns positive.** The effective r trends toward 4.4%, while nominal g ≈ 2% real + 2% inflation = 4% (if the Fed "wins" and inflation returns to 2%). In the §5.1 NBER decomposition, the entire −48pp of debt reduction in 1946–74 came from a negative r − g; **with r > g and a primary deficit still at 2–3% of GDP, debt/GDP rises mechanically by 2–3pp a year, to roughly 115–120% by 2031** — the Japanese path, but without Japan's domestic holder base (§5.4: even at Japan's short end foreigners hold 55.6%; the US rolls a third within 12 months).
+
+#### 7.6.3 How it develops: three end-states, not one
+
+| End-state | Mechanism | Effect of each additional year of high rates |
+|---|---|---|
+| **Scenario B (acute repricing)** | All three §7.2 breakpoints worsen: larger rollovers, Fed losses restarting (§1.2 timing: at the 5% rate measured in 2023 ⇒ an annual loss of $113.5 billion and remittances at zero), an X-date in 2027–28, OASI in 2032 | **Probability rises.** §8.2 already says B ends in "the debasement tax collected in one go" ⇒ **high rates are not an exemption; they turn a drip into a lump-sum withholding**. 📖 What "collected in one go" means: the baseline is a moderate negative real rate of 1–3% a year slowly diluting the debt over a decade (1946–80 style); B is the Fed forced to do hundreds of billions to a trillion of QE within weeks (March 2020 style), followed by an inflation jump and a deeply negative real rate for a short period (2021–22 style: CPI peaking at 9%, TLT −40% in a year), **so that the tax "owed" from the years of positive real rates is collected within 1–2 years** — a similar total, delivered as a lump sum instead of in instalments |
+| **Scenario C (fiscal consolidation)** | The only route that genuinely avoids the debasement tax; it needs a swing in the primary balance of about $600–900 billion a year (2–3% of GDP) | **Probability also rises.** Historically it has taken a shock to force it (Rogoff), but "interest at 30% of receipts" is itself an arithmetic forcing; the 10–15% given in §8.2 **is too low on this branch** |
+| **Path ④ (erosion of central-bank independence, §6.2.4c)** | The line of attack "the Fed pays banks over $100 billion a year in reserve interest, has negative equity, and gives taxpayers nothing" builds up year by year; Warsh himself advocates a "new Treasury–Fed accord" | **The tax is not something the Fed chooses to levy; it arrives when the Fed loses the ability to say no** — nobody has to announce ignition |
+
+**The cost hidden by the baseline while rates stay high** (argued in §6.2.5b): crowding out and the valuation denominator — "rates high enough to make the debt a problem" and "rates low enough to keep the bull market going" cannot both hold; fiscal improvement during a bull market is borrowed.
+
+#### 7.6.5 Two follow-up questions explained (2026-09-27)
+
+**Q: "Scenario C's probability also rises" — does that mean tax receipts surge?**
+No. **Fiscal consolidation = the primary balance (excluding interest) moving from deficit to surplus through tax increases and/or spending cuts, not through natural growth in receipts** — §6.2.5b has shown that receipts from a bull market or growth rise linearly and once, and cannot keep up with compounding interest. Size: from a primary deficit of about 2% of GDP to a 1% surplus, a swing of about **$600–900 billion a year**, comparable to the 1990–1998 episode (tax increases in 1990 and 1993 plus the post-Cold-War peace dividend, going from a deficit of 4.5% of GDP to surplus in eight years). **The logic of "the probability rises" is elimination**: the Fed holding rates high = closing off the baseline route of "inflation slowly diluting the debt", which leaves only B (the market forces the Fed to turn) and C (arithmetic forces Congress to act); interest at 30% of receipts means interest crowding out all discretionary spending (it already exceeded defence in FY25), an automatic 22% cut to OASI benefits in 2032, and an X-date in 2027–28 — **three hard calendar dates turn "whether to consolidate" into "when consolidation is forced"**. ⚠ Historically consolidation almost never comes before a shock (Rogoff), so C remains the lowest of the three; and the 30pp contribution of primary surpluses in 1946–74 came **alongside** repression, not instead of it — the real path is most likely a B/C mix. For assets: C is the kindest to long bonds (§8.2) and contractionary for equities.
+
+**Q: Has "path ④, erosion of central-bank independence" happened before? Does it mean the dollar loses reserve-currency status?**
+It has happened — **twice in the US itself** — and neither time was reserve status lost:
+
+| Case | Form | Outcome | Reserve status |
+|---|---|---|---|
+| **US 1942–1951** | The Fed pegged long bonds at ≤2.5% at the Treasury's request; CPI averaged 7.1% in 1947–51 (§6.2.1) | Debt/GDP 106% → a −36pp contribution from repression; independence restored only by the 1951 Accord | **Established in the same period** as the Bretton Woods anchor |
+| **US 1970–78 (Burns)** | The chairman gave in to Nixon's pre-election pressure; the gold window closed in 1971 (§5.5) | The Great Inflation: CPI 11.0% in 1974, 13.5% in 1980; the dollar fell sharply against the mark and the yen | Share declined but **with no substitute, not lost** |
+| UK 1945–75 (§5.3) | Not a central bank stripped of power, but **a relative decline in national strength** plus holders locked in by the Basel agreements | Reserve share 80% → under 10%, **over 30 years** | Lost — but independence was not the main cause |
+| Turkey 2021–23 / Argentina | Rates held down administratively | The lira collapsed, inflation 80%+ (⚠ common-knowledge record, not checked item by item in this report) | Never reserve currencies |
+
+⇒ **Three readings**: ① **eroded independence ≠ loss of reserve-currency status**: reserve status is a slow variable (§3.2; T4 on the constant-FX basis normally moves ±0.1–0.2pp a quarter), and losing it takes a substitute and a timescale of 30 years, while the §5.3 mechanism runs the other way — **a reserve-currency country's creditors are locked in and then taxed, not let go**; ② **what it means is ignition itself**: the real rate turning negative and the debasement tax being levied (T6) — at home savers and pensions pay the tax, abroad the dollar depreciates (the 1970s template) and gold benefits (T6 and gold's structural support are the same thing); ③ **what is different today (point 2 of §6.2.4b)**: in the 1940s creditors could not leave, while today capital moves freely, TIPS exist and a third rolls over each year — **if a "power grab" is seen by the market, the long end runs ahead and ④ first shows up as B**; so ④ can only collect its tax in a quiet institutional form (limits on IORB, audits, a "new Treasury–Fed accord"), **which is exactly why it can only be watched qualitatively and cannot be given a mechanical threshold** (§6.2.4c).
+
+#### 7.6.6 Follow-up: "the debasement tax will happen no matter what ⇒ gold must rise" — the two joints in that line (2026-09-27)
+
+> **The question as asked**: I seem to see a clear line — the debasement tax will happen no matter what, in whatever form; gold must rise.
+
+**Verdict: the direction is right, but both "musts" have to be taken apart. The first joint is solid (eight or nine in ten); the second is loose.**
+
+**Joint one: "the debasement tax will happen no matter what" — highly likely, not certain; and its timing cannot be forecast (§8.1).** Of the three scenarios, the baseline and B both end in the debasement tax (paid in instalments or in one go, §7.6.3), but **scenario C (consolidation) is the route that does not pay it**; there is also a **"purgatory state"** this report had not made prominent enough: the Fed wins, inflation returns to 2%, r > g, and debt/GDP grinds up 2–3pp a year — **the tax is deferred indefinitely**. The template is Japan 1990–2012: two decades of deflationary stagnation in which JGB holders earned positive real returns for twenty years, and the clearing tax only began to be collected in 2022 (§6.2.6 records the deeply negative real rates of 2022–24). ⇒ The accurate statement: **"unless there is consolidation or a long purgatory, the debasement tax will happen in some form"**.
+
+**Joint two: "gold must rise" — four reasons it is loose here:**
+
+| # | Reason | Primary data (GC=F continuous contract, yfinance, 2026-09-25) |
+|---|---|---|
+| ① | **Gold follows "expected real rates", not "the tax being collected"** | **2022 was when the debasement tax was collected hardest** (real rates about −6%, TLT −40% in a year), **yet gold rose only +1.4% for the year** — forward real yields were rising; **in the 2011–15 period of rising real rates, gold fell −41.6% peak to trough**. ⇒ In the higher-for-longer scenario of §7.6.2, those 3–5 years are exactly the years when gold's carrying cost is positive: **gold front-runs ignition; it does not travel alongside the collection of the tax** |
+| ② | **The endgame is already in the price** | Price **$4,321**; 1 year +14.6% / 3 years +125% / **5 years +147%**; −18.7% from the 01-29 blow-off high. In the words of §6.2.5: gold is pricing "ignition, eventually" — what remains is timing and size, not direction |
+| ③ | **The exit can be welded shut** | During the 25 years of the original clearing tax, **it was illegal for Americans to hold gold from 1933 to 1974** (wall ② of the four walls in §6.2.1b); the 1968 Basel agreement = the exit closed before the crisis (§5.3). **Repression 2.0 is defined by "creating buyers who cannot leave" — if gold became the mass exit, it would become the next door to weld shut**. ⚠ A tail risk, not the base case (the federal government itself holds 8,133 tonnes, §6.2.5c; but in 1933 the sequence was exactly confiscation first, then devaluing the dollar against gold by 41%); it must be deducted from any "must" |
+| ④ | **Shape** | Already played out in 2026: after the January blow-off, **−11% in a single day** (§3.2); in the week of Warsh's speech **−5.8% over five days**, a harder hit than equities' −0.5%. "Certain to rise over ten years" and "−40% along the way" can both be true — **for a position, the latter is the problem** |
+
+**⇒ This report's statement**: **T6 and gold's structural support are the same thing**; central-bank gold buying (863 tonnes in 2025, 244 tonnes in 2026Q1, §3.2) is a persistent bid that does not depend on ignition; in 2025 gold took the whole debasement trade while BTC fell −6.3% (§6.2.6b). But the tradable statement is not "must rise"; it is:
+
+> **Gold = a long-dated option on T6 ignition; in years of positive real rates its premium (carrying cost) is negative; enter on pullbacks driven by real rates, and do not chase price for the thesis.**
+
+The words in the question that should change: "must" → **"the structural bid does not go away"**; "no matter what" → **"unless there is consolidation or a long purgatory"**. ⚠ Gold's historical drawdowns and gains in this section are on the yfinance continuous-contract basis and cannot be placed directly beside §3.2's intraday/close dual-basis extremes; cite them with the "continuous contract" qualifier.
+
+#### 7.6.4 An honest conclusion for this report
+
+- The question exposes a **conditional dependence**: the 60 / 25–30 / 10–15 distribution in §8.2 **implicitly assumes the Fed eventually cooperates**. If the condition becomes "the Fed holds firm for 3–5 years": **the baseline falls and B and C both rise**; "in decades" becomes a two-year question of **T1 crossing in 2027**. This section does not change the registered probabilities in §8.2 (that is the unconditional distribution); it only registers this **conditional revision**.
+- ⇒ **One more reading rule**: when the T6 gap widens, it must not be read as "repression risk has fallen", but as **"the delivery of the tax is shifting from gradual to event-driven (B) or institution-driven (④)"**; **T1 is thereby promoted to a leading indicator for T6** — by the table above, it is the common leading indicator of all three end-states.
+- ⚠ 7.6.2 in this section is a **rough projection** (linear extrapolation, three parameter sets), at a lower evidence grade than this report's primary readings; any citation must carry the "rough projection" qualifier and must not be written as "forecast: interest at 29% of receipts in 2031".
+
 ---
 
 ## 8. Forecasting the timing: an honest framework (conditional windows, not dates)
@@ -826,7 +911,7 @@ Rather than enumerate ways around the ban, the proposed §15.10(c)(4)(i) creates
 ### 8.2 Three scenarios (⚠ probabilities are this report's subjective judgement, not a calculation; calibration disclaimer: judgements of this kind have historically over-estimated the speed of change)
 
 **Baseline (about 60%) — no acute crisis, Financial Repression 2.0 arriving gradually**
-Nominal growth + moderate inflation (3%±) + continued absorption through short-end demand engineering; debt/GDP creeping up; long-bond holders continuing to pay the debasement tax; politics forced into partial repairs before the OASI cliff in 2032. **This is a low-spec rerun of the 1946-1980 playbook on a decadal timescale.** Beneath the appearance of "nothing happening", the wealth transfer proceeds every day — which is exactly why the scenario is sustainable: **no single-day news means no political cost.**
+Nominal growth + moderate inflation (3%±) + continued absorption through short-end demand engineering; debt/GDP creeping up; long-bond holders continuing to pay the debasement tax; politics forced into partial repairs before the OASI cliff in 2032. **This is a low-spec rerun of the 1946-1980 playbook on a decadal timescale.** ⚠ **Conditional dependence (added 2026-09-27)**: this distribution implicitly assumes the Fed eventually cooperates; if the Fed holds rates high for another 3–5 years, the baseline falls, B and C both rise, and T1 crosses its line in 2027 on a rough projection — see §7.6. Beneath the appearance of "nothing happening", the wealth transfer proceeds every day — which is exactly why the scenario is sustainable: **no single-day news means no political cost.**
 
 **Scenario B (about 25-30%) — an acute repricing event**
 Triggers: the long end going out of control / the basis trade blowing up / contagion from Japan / the policy standoff losing control. **The window where conditions are densest: 2027-2028** — not a forecast, but the overlap of four calendar anchors:
@@ -845,7 +930,7 @@ Rogoff: "action will wait for a major shock." Historically consolidation almost 
 
 | # | Trigger | Adjudication source | Meaning |
 |---|---|---|---|
-| T1 | **rolling 12-month** net interest / **rolling 12-month** net receipts **>22%**, met in six consecutive MTS monthly reports | MTS Table 9 + Table 4 (monthly, primary; 🔴 caliber pinned: "annualised" without a stated method is polluted by seasonality, FYTD annualisation especially — hence rolling 12 months) | the compounding spiral shifting up a gear |
+| T1 | **rolling 12-month** net interest / **rolling 12-month** net receipts **>22%**, met in six consecutive MTS monthly reports | MTS Table 9 + Table 4 (monthly, primary; 🔴 caliber pinned: "annualised" without a stated method is polluted by seasonality, FYTD annualisation especially — hence rolling 12 months) | the compounding spiral shifting up a gear; **from §7.6 it also serves as the leading indicator for T6** (a rough higher-for-longer projection crosses the line in 2027) |
 | T2 | a **≥10-year** (10/20/30Y) coupon auction with **a tail >3bp AND PD takedown >20%** in the same auction | TreasuryDirect result sheets (the maturity restriction was added because tail/PD distributions differ structurally by tenor, and mixing them is "two economically different instruments under one indicator name"; the proposition here is about the long end) | demand anomaly (the March 2Y had PD at 24% but a tail of 1.8bp — not a trigger on either the old or new definition) |
 | T3 | Japanese holdings falling **$50B or more in a month, AND confirmed as net selling by the monthly TIC flow tables** | TIC Table 5 stocks + the monthly flow release (⚠ two-month lag) | the Japanese contagion channel. 🔴 The second test is essential: **stocks include valuation changes, and a price fall by itself reduces the holding value — that is not selling.** Reading stocks alone violates the discipline "a change in balance ≠ a sale" |
 | T4 | the dollar share falling **0.5pp or more in a quarter on the constant-FX basis** (the IMF briefing's constant-FX figure) | IMF COFER quarterly briefing (🔴 corrected twice: an earlier review claiming "there is no official valuation-adjusted series" was **wrong** — the IMF briefing has published a constant-FX basis since 2025; and back-filling proves a raw-share threshold would misfire: **2025Q2 showed -1.47pp on the raw share, of which 92% was an FX valuation effect, with the constant-FX basis down only -0.12pp** — the original design would have reported an FX beta as reserve-diversification alpha. The constant-FX basis moves ±0.1-0.2pp normally, so -0.5pp is anomalous) | the reserve side turning from a slow variable into a fast one |
