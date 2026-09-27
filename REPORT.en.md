@@ -675,11 +675,11 @@ Rather than enumerate ways around the ban, the proposed §15.10(c)(4)(i) creates
 | 🔴 **T3** (Japan −$50B in a month, confirmed by flows) | JGB 10Y 3.02% (highest since 1996) + expectations of a BoJ hike this month ⇒ **the price conditions for Japanese repatriation are forming**; TIC data lags two months | ✅ not triggered; **the mechanism is at "preconditions met, flows still to be observed"** |
 | T4 (constant-FX dollar share) | DXY flat, move globally synchronised ⇒ no implication for share | ✅ not triggered |
 | T5 (TGA / buyback escalation officially announced) | long-end buybacks already doubled (from 09-09, §1.4); **no new announcement this week** | ✅ not triggered |
-| 🔴 **T6** (core PCE > EFFR) | core PCE 3.34 vs EFFR 3.63 = **+0.29pp**; **a 25bp hike on 09-16 would widen the gap to +0.54pp** | ✅ not triggered; 🔴 **this week's events point toward [postponing ignition]** |
+| 🔴 **T6** (core PCE > EFFR) | core PCE **3.34%** (July) vs EFFR **3.63%** = **+0.29pp**. ✅ **Re-checked against the FRED primary series on 09-14** (`PCEPILFE`/`CPILFESL`) — I briefly suspended this reading because "core PCE above core CPI (2.47%) is the opposite of the textbook norm"; **that doubt is withdrawn**: February–July 2026 shows **six consecutive months of inversion**, and the cause is housing (housing weighs ≈40% in CPI and its y/y fell from 3.35% in May to 3.03% in August, dragging core CPI to 2.4%; housing weighs only ≈15% in PCE, which was not dragged down). 📌 **⇒ The weight gap alone does not set the direction; the weight gap times the sign of housing's relative inflation does** (see §8.3b) | ✅ not triggered; 🔴 **and more hawkish than the headline**: the market is reacting to a 2.4% core CPI, while **the core PCE the Fed actually targets is 3.34%, 0.9pp higher**; a 25bp hike on 09-16 ⇒ EFFR 3.88 − 3.34 = **+0.54pp, the gap widens and ignition is postponed**. ⚠ Timing caveat: 3.34% is the **July** reading; **recompute after the August PCE on 09-25** |
 | §7.2 breakpoint 1 gap | **MOVE now obtained (77.9, 22nd percentile of five years), partly filling the gap**; basis size and CFTC net shorts still missing | registered |
 
 > 📌 **A counter-intuitive implication**: the direction in which an oil shock acts inside this framework is **[undetermined] before 09-16**. It is tempting to write "oil is a decelerator, because it triggers a hike and the hike pushes T6 further away" — but **the premise of that sentence (that the Fed responds to the oil pass-through) is, before the FOMC, only the 55% baseline of §7.4.4, not a fact.** The correct formulation is:
-> - **If the hike lands on 09-16** ⇒ the gap widens from +0.29pp to +0.54pp and **oil is a decelerator**;
+> - **If the hike lands on 09-16** ⇒ the gap widens from +0.29pp to **+0.54pp** and **oil is a decelerator**;
 > - **If the Fed stands still** (about 25%) ⇒ the gap is unchanged while inflation rises, and **the same oil shock becomes fuel instead**.
 >
 > 🔴 **⇒ 09-16 is therefore not "one more data point", it is the [switch] on the oil variable — it decides the sign with which oil enters this framework.** The reading discipline does not change: watch T6, not the oil price; **oil enters this framework only through the single channel of "how the Fed responds", and the direction of that channel is not revealed until 09-16.** 📌 Filed under this report's discipline: **a baseline scenario must never be written as something that has already happened** (the same family as "a pre-registered indicator must not be claimed retroactively" — one is after the fact, one is before it).
@@ -717,6 +717,100 @@ Rather than enumerate ways around the ban, the proposed §15.10(c)(4)(i) creates
 - ⚠ **Path C (data weaken) is half falsified**: the 09-04 payrolls came in at **162K against an expected 56K** — the data did not weaken; **yet hike odds still fell from 63% to 52%** (Waller's data-dependent remarks on 09-03, reference grade) ⇒ **a fourth shape has appeared that none of the three paths anticipated: hawkish data with falling odds.** 📌 **Under the rule §7.4.4 set for itself about shapes that do not fit, this counts as "the market pricing something outside the pre-registered set" and should be investigated separately rather than forced into one of the paths**; the cause is registered as disagreement within the committee.
 
 > ⚠ **This section updates readings only; it does not modify the pre-registered probabilities in §7.4.4** — under this report's discipline, probabilities may not be adjusted on interim readings before the adjudication point arrives.
+
+### 7.5 🔴 Rumour check: "The Bank of Japan is selling all its US Treasuries to stop a collapse" (2026-09-09)
+
+> **Verdict: wrong subject, wrong size, and the motive is the opposite of the facts; but behind the rumour sits a real and important mechanism, and checking it corrected a wrong reading in this report's T3 register.**
+
+#### 7.5.1 Wrong subject: the Bank of Japan holds almost no Treasuries
+
+**✅ BOJ official ten-day accounts (2026-08-31, `boj.or.jp/en/statistics/boj/other/acmai`, in thousands of yen):**
+
+| BOJ asset | Amount | In dollars (@153.40) |
+|---|---|---|
+| **Foreign-currency assets (all)** | ¥12.0 trillion | 🔴 **about $78B** |
+| Japanese government bonds | ¥519.9 trillion | about $3,389B |
+| Gold | ¥0.44 trillion | about $2.9B |
+
+> 🔴 **The BOJ's [entire] foreign-currency assets are only about $78 billion, while Japan as a whole holds $1,116.7 billion of Treasuries (TIC 2026-06) — the former is 7.0% of the latter, and it also includes deposits and short-term instruments, not only Treasuries.**
+> **⇒ "The Bank of Japan selling all its US Treasuries" does not work arithmetically: it does not have that much to sell.**
+
+**⚠ The real holders are two other groups**: ① **the Ministry of Finance** — Japan's official FX reserves sit in the Foreign Exchange Fund Special Account; **the BOJ is only the executing agent, not the owner**; ② **private institutions** — life insurers, banks and pension funds (GPIF and others). ⇒ **Reading TIC's "Japan" line as "the Bank of Japan" is this rumour's original error.**
+
+#### 7.5.2 Wrong size: this is a reduction, not "selling everything"; and about a quarter is valuation
+
+**✅ TIC Table 5 (official), Japan's holdings by month:**
+
+| | Change in stock | 10Y move | Approx. valuation | **Residual (≈ real change)** |
+|---|---:|---:|---:|---:|
+| 2026-01→02 | +14.0B | -29bp | +19.5B | -5.5B |
+| 2026-02→03 | -47.7B | +33bp | -22.5B | -25.2B |
+| 2026-03→04 | +18.3B | +10bp | -6.6B | +24.9B |
+| 🔴 **2026-04→05** | 🔴 **-66.8B** | +5bp | -3.3B | 🔴 **-63.5B** |
+| 2026-05→06 | -26.4B | -1bp | +0.6B | -27.0B |
+| **Peak (02) → latest (06)** | **-122.6B** | +47bp | ≈-32~35B | **≈-88~91B (about $22B a month)** |
+
+⚠ **Duration assumed at 5.5 years; an order-of-magnitude guide only, not an official decomposition.**
+
+> **⇒ The reduction is real, and its size is [a real fall of about $90B over four months, about 7% of the stock], not "everything".** 📌 **Japan is still the world's largest foreign holder over the same period (second is the UK at $939.9B).**
+
+#### 7.5.3 🔴 Correction: this report's T3 register reading was wrong
+
+**The register said "Japan's largest monthly decline in 2026 was about $40B" — wrong. ✅ The official table shows -$66.8B (2026-04→05), which crosses T3's -$50B leg**; the 10Y moved only +5bp that month ⇒ valuation explains only -$3.3B, and **the residual of -$63.5B points strongly to a real reduction**.
+> 📌 **Full-window view (added 2026-09-21, ✅ read directly from the current TIC Table 5 file `slt_table5`, data to 2026-07) — under the rule that a qualifier must sit next to its number, a single-month extreme must be shown beside the full window**: month by month 2025-12→01 **+39.8** / 01→02 **+14.0** / 02→03 **−47.7** / 03→04 **+18.3** / 🔴 **04→05 −66.8** / 05→06 **−26.4** / 06→07 **−12.8** ($bn). **Year to date (2025-12 → 2026-07) −$81.6B; from the February peak of $1,239.3B to $1,103.9B in July = −$135.4B (−10.9%)**; **three consecutive monthly declines in May–July, but shrinking (−66.8 → −26.4 → −12.8)**. ⇒ **The single-month −$50B leg has been crossed only once (04→05); the full-window shape is "one large cut followed by two months of convergence", not sustained selling. ⚠ Do not extrapolate −66.8 to a full year.** ⚠ Note that the old TIC archive table (headed 2022–23) has the same name as the current one; check the header before reading a number.
+
+> ⚠ **But T3 is still judged not triggered**, because the criterion has **two legs side by side**: ① a monthly fall of $50B or more **and** ② **confirmation as net selling by the monthly TIC flow tables**. **The second leg has not been obtained** (the MoF intervention-data page and the TIC flow sub-table URLs tried this time have changed or carry no Japan line; registered as an open item).
+> 🔴 **⇒ T3's status moves from "far from the threshold" to [first leg crossed, awaiting flow confirmation] — a real status upgrade that had been hidden by a wrong reading.**
+> 📌 **Method note**: the second leg is exactly what this report added in its 08-31 review ("a change in balance ≠ selling"). **This time it did its job — not by stopping a false alarm, but by [supplying the correct intermediate state once the first leg had been crossed]. ⇒ The value of a two-leg criterion is not only guarding against false positives; it can also express "partly met".**
+
+#### 7.5.3b 🔴 The rumour's second version: "selling Treasuries to rescue stocks" — both directions contradict the official accounts
+
+**The rumour also circulates in a more specific version: "the Bank of Japan is selling Treasuries [to rescue the stock market]". ⇒ That version can be refuted in both directions with the BOJ's own ten-day accounts.**
+
+**✅ BOJ official ten-day accounts compared over time (¥ trillion; ETFs at book value, which does not move with the market ⇒ a fall in book value = actual disposal):**
+
+| Date | **ETFs (equities)** | **Foreign-currency assets** | JGBs |
+|---|---:|---:|---:|
+| 2025-08-31 | ¥37.2T | ¥11.0T | ¥571.6T |
+| 2026-03-31 | ¥37.1T | ¥11.7T | ¥530.9T |
+| 2026-06-30 | ¥37.0T | ¥11.9T | ¥518.3T |
+| **2026-08-31** | **¥37.0T** | **¥12.0T** | ¥519.9T |
+| **One-year change** | 🔴 **−¥0.2T (slowly falling)** | 🔴 **+¥1.0T (rising)** | −¥51.7T |
+
+> 🔴 **The rumour says "sell foreign assets, buy stocks"; the official accounts show [foreign assets rising and equity holdings falling] — both directions reversed at once.**
+
+⚠ **Under this report's rule, a change in balance must first be stripped of valuation** (the same yardstick §7.5.2 applies to Japan's Treasury holdings): the yen weakened from 147.10 to 159.75 over the year (**−8.6%**) ⇒ of the +9.1% rise in foreign assets, **the exchange rate contributes +8.6pp and the real change is only +0.5%** (in dollars $74.8B → $75.1B).
+> ⇒ **The corrected, accurate statement: the BOJ's foreign assets are [essentially flat, slightly up], not "being built up".** 📌 **That only strengthens the refutation — the rumour requires [heavy selling]; the measurement shows [no movement].**
+
+##### This version also contradicts itself mechanically
+
+**Even assuming the BOJ did this, the chain destroys itself:**
+
+> **Sell Treasuries → receive dollars → convert to yen → 🔴 the yen strengthens → Japanese exporters' translated profits fall → the Nikkei falls.**
+> ⇒ **"Selling Treasuries to rescue stocks" would, through the exchange rate, hit the very thing it claims to rescue.**
+
+⚠ **A more basic point**: **a central bank buying domestic assets does not need to sell other assets first — it issues its own currency.** The BOJ historically bought ETFs with newly created yen; **the premise "sell Treasuries first to raise money" misunderstands how a central bank works.**
+
+##### And the premise "the stock market is crashing" does not hold either
+
+**✅ Nikkei 225 (2026-09-09): 65,159.59; −10.0% from the 06-25 high of 72,366, but 🔴 still +25.7% year to date.**
+⇒ **Up 25.7% on the year and 10% off the high — that is a correction, not a crash that needs a central-bank rescue.**
+
+📌 **⇒ The rumour wires together three observations that are each true, but wrongly**: ① the yen is strengthening; ② the Nikkei has come off its high; ③ Japan's Treasury holdings are falling. **The correct causation: expectations of BOJ hikes → a stronger yen + higher JGB yields → ① pressure on exporters (the Nikkei comes off), ② private institutions repatriating (Treasury holdings fall). ⇒ The three share a common upstream cause; they are not causes of each other.** ⚠ **The rumour strings them into "the central bank sells Treasuries to rescue stocks", a chain that actually runs the other way.**
+
+#### 7.5.4 The motive contradicts the facts: the yen is strengthening, not collapsing
+
+**✅ USDJPY: 163.86 on 2026-07-28 → **153.40** on 2026-09-09, a yen appreciation of about 6.4% in six weeks.**
+
+> **⇒ Selling reserves is how a country props up a currency that is [falling]. The yen has been rising over this period, so the motive "selling to stop a collapse" does not match the facts.**
+> ⚠ The appreciation is more likely driven by **expectations of BOJ hikes** (JGB 10Y at 3.02%, the highest since 1996; 30Y at 4.20%) and open US pressure, **not by selling Treasuries for yen**.
+
+#### 7.5.5 The real mechanism behind the rumour (this is what deserves attention)
+
+> 🔴 **JGB yields at multi-decade highs are, on their own, a reason for Japanese institutions to [bring money home]** — no central-bank order needed: for twenty years life insurers and pension funds were pushed abroad by zero domestic yields; **once the 30Y JGB pays 4.20% with no currency risk, keeping Treasuries with thinner hedged returns stops making sense.**
+> **⇒ This is exactly the mechanism of breakpoint 2 in §7.2 (contagion from Japan): rising JGB yields → Japanese money repatriates → Treasuries lose their largest marginal buyer. Its driver is [private institutions' allocation arithmetic], not a central bank's policy operation.**
+
+**⇒ So the rumour takes a true event and misplaces its subject and its size**: the true event is that **a structural repatriation of Japanese private capital is under way (about -$90B over four months)**; the rumour turns it into **an emergency central-bank operation**. ⚠ **The investment implications are completely different**: the former is **a slow variable, foreseeable and measurable monthly**; the latter, if true, would be **an acute event, not foreseeable**. **Under this report's rules, only the former is tracked (T3); no judgement is adjusted for the latter.**
 
 ---
 
@@ -758,16 +852,39 @@ Rogoff: "action will wait for a major shock." Historically consolidation almost 
 | T5 | **drawing on the TGA / another doubling of buybacks moving from rumour to official announcement** | Treasury press releases | escalating fiscal ammunition = escalating pressure |
 | T6 | **core PCE y/y > the monthly average EFFR** (the real policy rate turning negative) | BEA (core PCE) + NY Fed EFFR, daily, averaged monthly (🔴 the adjudication quantity is pinned: the fed funds target is a **range**, and 3.50-3.75 against 3.6% inflation falls inside the range and cannot be adjudicated — the quantity must be a single value, hence EFFR) | **the formal ignition signal of financial repression** |
 
+#### 8.3b 🔴 A "suspension" that was withdrawn — and the prior it exposed (2026-09-14)
+
+**What happened**: August core CPI came in at **2.4%**, and I noticed that the core PCE registered in this report, **3.34%**, stood in a "PCE above CPI" relation to it, **the opposite of the textbook norm**, so I marked T6's +0.29pp reading as "suspended".
+
+🔴 **Re-checked against the FRED primary series (`PCEPILFE` / `CPILFESL`), the doubt was rejected:**
+
+| Month | Core PCE | Core CPI | PCE − CPI |
+|---|---|---|---|
+| 2026-07 | **3.34%** | 2.47% | **+0.88pp** |
+| 2026-06 | 3.34% | 2.57% | +0.78pp |
+| 2026-05 | 3.46% | 2.82% | +0.64pp |
+| 2026-04 | 3.33% | 2.74% | +0.59pp |
+| 2026-03 | 3.25% | 2.60% | +0.65pp |
+| 2026-02 | 3.05% | 2.47% | +0.58pp |
+
+> ✅ **3.34% is exactly right; the "inversion" is also real — six months in a row.** Its cause is precisely the mechanism I had written down myself: **housing weighs ≈40% in CPI, and housing y/y fell from 3.35% in May to 3.03% in August, dragging core CPI to 2.4%; housing weighs only ≈15% in PCE, which was not dragged down.**
+
+🔴 **⇒ My error was not misremembering a number; it was [citing a mechanism by name without running it]**:
+> **The housing weight gap alone does not set the direction** — **the weight gap times the sign of housing's relative inflation** does. When housing inflation runs **above** the rest (as in recent years), the heavy weight pushes CPI up ⇒ CPI > PCE; when housing **cools**, the same heavy weight drags CPI down ⇒ **PCE > CPI**.
+> ⚠ **In the original text I wrote "housing weight 40% in CPI vs 15% in PCE" as an argument, but used its [conclusion] from the old environment without plugging in the current housing trend.** ⇒ A **conditional relationship** was treated as a **constant one**.
+
+✅ **Net gain (worth more than the withdrawal itself)**: 🔴 **the market today is reacting to a 2.4% core CPI headline, while the core PCE the Fed actually watches is still 3.34%, a full 0.9pp higher.** ⇒ **§7.4's "the market is pricing the central bank's reaction function, not the level of inflation" still holds, and one more line can be added: even on the level of inflation, the Fed's yardstick runs much hotter than the CPI headline.** ⚠ Timing caveat: 3.34% is the **July** reading; **recompute after the August core PCE on 09-25**.
+
 **Birth-date back-fill check (a threshold must be back-filled with the reading on the day it is registered — an indicator that triggers on its birthday has no early-warning value)**:
 
 | # | Reading at registration (2026-08-30/31) | Status |
 |---|---|---|
 | T1 | rolling 12M = 1,061.0/5,373.4 = **19.7%** (threshold 22%, 2.3pp away) | ✅ not triggered |
 | T2 | the August 30Y had a 0.4bp tail and 11.5% PD; no 2026 auction has crossed both lines together | ✅ not triggered |
-| T3 | Japan's largest monthly decline in 2026 was about $40B (and not confirmed by flows) | ✅ not triggered |
+| T3 | ~~Japan's largest monthly decline in 2026 was about $40B~~ 🔴 **that reading was wrong; corrected 2026-09-09: the actual figure is -$66.8B (2026-04→05), crossing the -$50B leg** (✅ re-checked digit for digit against the current table on 09-21; **full window: year to date −$81.6B, −$135.4B from the February peak, May–July −66.8/−26.4/−12.8 and shrinking**; see §7.5.3) | ⚠ **first leg crossed, second leg (flow confirmation) not obtained ⇒ still judged not triggered, but the status moves from "far" to "one leg crossed"**; see §7.5 |
 | T4 | on the constant-FX basis 2026Q1 was **a rise**; 2025Q2 was only -0.12pp | ✅ not triggered (**the raw-share version would have misfired in 2025Q2 and was discarded**) |
 | T5 | drawing on the TGA is still a rumour, never announced | ✅ not triggered |
-| T6 | EFFR ≈3.6%+ > core PCE 3.34% | ✅ not triggered (the real policy rate is still positive) |
+| T6 | EFFR ≈3.6%+ > core PCE 3.34% (✅ **re-checked against FRED primary data on 09-14; the earlier "suspension" is withdrawn**) | ✅ not triggered (the real policy rate is still positive) |
 
 ##### 🔄 Register refresh (2026-09-07; all re-checked at source)
 
@@ -778,9 +895,9 @@ Rogoff: "action will wait for a major shock." Historically consolidation almost 
 | **T3** | no new TIC (two-month lag); ⚠ **the preconditions are in place**: JGB 10Y at 3.02% (highest since 1996) + expectations of a BoJ hike in September | — | ✅ not triggered, **observation frequency raised to every TIC release day** |
 | **T4** | no new COFER (quarterly); 🔄 DXY 99.13, and it did not strengthen through the §7.4 shock | — | ✅ not triggered |
 | **T5** | the rumour is still unannounced; 🔄 **but the first doubled buyback runs on 09-09** | — | ✅ not triggered (⚠ the criterion is "another doubling / an announced TGA drawdown"; the doubling already announced does not constitute a trigger) |
-| 🔴 **T6** | core PCE **3.34%** vs EFFR **3.63%** = **+0.29pp** | **0.29pp** | ✅ not triggered; **a 25bp hike on 09-16 widens the gap to +0.54pp; standing still leaves the gap unchanged while inflation rises** — the direction is decided by the FOMC (§7.4.3) |
+| 🔴 **T6** | core PCE **3.34%** (July, ✅ FRED re-check) vs EFFR **3.63%** | **0.29pp** | ✅ not triggered; **a 25bp hike on 09-16 widens the gap to +0.54pp; standing still leaves the gap unchanged while inflation rises** — the direction is decided by the FOMC (§7.4.3). 🔴 **Mind the gap between measures**: the market is reacting to a 2.4% core CPI, while **the Fed's yardstick (core PCE) is still 3.34%, 0.9pp higher** |
 
-> 🔴 **Net position after this refresh: all six triggers are un-fired, and the two closest are T6 (0.29pp) and T1 (2.25pp). ⇒ There are three readable adjudication points within ten days: the 09-10 auction (T2), the 09-11 CPI (the hike-odds line, not T6), and the 09-16 FOMC (T6's direction).**
+> 🔴 **Net position after this refresh: all six triggers are un-fired, and the two closest are T6 (0.29pp, ✅ FRED re-check on 09-14) and T1 (2.25pp). ⇒ Of the three adjudication points, two have landed: the 09-10 auction (T2 not triggered; ✅ cleared on price rather than refused on quantity) and the 09-11 CPI (✅ landed; core y/y eased from 2.5% to 2.4%, yet hike bets rose to 85.5%); the 09-16 FOMC (T6's direction) remains.**
 
 ⚠ Caliber discipline: T1-T6 are **slow-variable** triggers and belong to a different timescale from **fast-variable** scoring such as equity-index drawdowns; **the two do not adjudicate each other.**
 

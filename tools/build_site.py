@@ -14,7 +14,8 @@ from pathlib import Path
 import markdown
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA_AS_OF = '2026-09-07'          # 时效性数字刷新至(源稿刷新后改这里)
+DATA_AS_OF = '2026-09-07'          # 时效性数字刷新至(源稿刷新后改这里;须与 REPORT.md 头部一致)
+PAGE_MODIFIED = '2026-09-27'       # 页面修改日(结构化数据 dateModified / 站点地图 / 存档文件名);与数据时点分开 —— 同步新节不等于全文数字已刷新
 BASE = 'https://ronfi.github.io/us-debt/'
 REPO = 'https://github.com/ronfi/us-debt'
 SITE = '美国国债研究 · US Debt'
@@ -352,7 +353,7 @@ def build(lang):
     stale_note = (f'<p class="stale">{T["stale"]} <a href="{other["url"]}">{other["title"]}</a></p>'
                   if lang == 'en' and _en_stale() else '')
     jsonld = _json.dumps({'@context': 'https://schema.org', '@type': 'Report', 'name': T['og_title'], 'headline': title,
-                          'description': T['desc'], 'url': T['url'], 'inLanguage': T['html_lang'], 'dateModified': DATA_AS_OF,
+                          'description': T['desc'], 'url': T['url'], 'inLanguage': T['html_lang'], 'dateModified': PAGE_MODIFIED,
                           'license': 'https://creativecommons.org/licenses/by-nc-nd/4.0/', 'isAccessibleForFree': True,
                           'keywords': [k.strip() for k in T['keywords'].split(',')],
                           'author': {'@type': 'Organization', 'name': SITE, 'url': REPO}, 'sameAs': REPO}, ensure_ascii=False)
@@ -385,7 +386,7 @@ document.addEventListener('DOMContentLoaded',function(){
 <meta name="description" content="{H.escape(T['desc'])}">
 <meta name="robots" content="index,follow,max-image-preview:large"><meta name="keywords" content="{H.escape(T['keywords'])}">
 <link rel="canonical" href="{T['url']}"><link rel="alternate" hreflang="{T['html_lang']}" href="{T['url']}"><link rel="alternate" hreflang="{other['html_lang']}" href="{other['url']}"><link rel="alternate" hreflang="x-default" href="{BASE}">
-<meta property="og:type" content="article"><meta property="og:site_name" content="{T['site']}"><meta property="og:locale" content="{'zh_CN' if lang == 'zh' else 'en_US'}"><meta property="og:title" content="{H.escape(T['og_title'])}"><meta property="og:description" content="{H.escape(T['og'])}"><meta property="og:url" content="{T['url']}"><meta property="og:image" content="{T['og_image']}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="article:modified_time" content="{DATA_AS_OF}">
+<meta property="og:type" content="article"><meta property="og:site_name" content="{T['site']}"><meta property="og:locale" content="{'zh_CN' if lang == 'zh' else 'en_US'}"><meta property="og:title" content="{H.escape(T['og_title'])}"><meta property="og:description" content="{H.escape(T['og'])}"><meta property="og:url" content="{T['url']}"><meta property="og:image" content="{T['og_image']}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="article:modified_time" content="{PAGE_MODIFIED}">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{H.escape(T['og_title'])}"><meta name="twitter:description" content="{H.escape(T['og'])}"><meta name="twitter:image" content="{T['og_image']}">
 <script type="application/ld+json">{jsonld}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -406,12 +407,12 @@ document.addEventListener('DOMContentLoaded',function(){
     out = ROOT / T['out']; out.parent.mkdir(parents=True, exist_ok=True); out.write_text(html, encoding='utf8')
     if '--archive' in sys.argv:
         arch = ROOT / 'docs' / 'archive'; arch.mkdir(exist_ok=True)
-        note = f'<div class="archnote">{T["archnote"].format(d=DATA_AS_OF)} <a href="{T['url']}">{T['url']}</a> · <a href="./">{T["archive"]}</a></div>'
+        note = f'<div class="archnote">{T["archnote"].format(d=PAGE_MODIFIED)} <a href="{T['url']}">{T['url']}</a> · <a href="./">{T["archive"]}</a></div>'
         a = (html.replace(f'href="{T["archive_href"]}"', 'href="./"')
                  .replace('<meta name="robots" content="index,follow,max-image-preview:large">', '<meta name="robots" content="noindex,follow">', 1)
                  .replace('<body>', '<body>' + note, 1)
                  .replace('</style>', '.archnote{background:var(--mark);color:var(--ink-em);padding:11px 28px;font-size:12.5px}</style>', 1))
-        (arch / (f'{DATA_AS_OF}.html' if lang == 'zh' else f'{DATA_AS_OF}.en.html')).write_text(a, encoding='utf8')
+        (arch / (f'{PAGE_MODIFIED}.html' if lang == 'zh' else f'{PAGE_MODIFIED}.en.html')).write_text(a, encoding='utf8')
         dates = sorted({f.name[:10] for f in arch.glob('????-??-??*.html')}, reverse=True)
         items = ''.join(f'<li><span class="d">{d}</span> <a href="{d}.html">中文</a>'
                         + (f' · <a href="{d}.en.html">English</a>' if (arch / f'{d}.en.html').exists() else '') + '</li>' for d in dates)
@@ -422,7 +423,7 @@ document.addEventListener('DOMContentLoaded',function(){
         print('archive', dates)
     (ROOT / 'docs' / 'robots.txt').write_text(f'User-agent: *\nAllow: /\nSitemap: {BASE}sitemap.xml\n')
     (ROOT / 'docs' / 'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'
-        + ''.join(f'<url><loc>{LANG[l]["url"]}</loc><lastmod>{DATA_AS_OF}</lastmod><changefreq>monthly</changefreq><priority>{"1.0" if l == "zh" else "0.9"}</priority>'
+        + ''.join(f'<url><loc>{LANG[l]["url"]}</loc><lastmod>{PAGE_MODIFIED}</lastmod><changefreq>monthly</changefreq><priority>{"1.0" if l == "zh" else "0.9"}</priority>'
                   + ''.join(f'<xhtml:link rel="alternate" hreflang="{LANG[m]["html_lang"]}" href="{LANG[m]["url"]}"/>' for m in LANG) + '</url>'
                   for l in LANG if (ROOT / LANG[l]['src']).exists())
         + f'<url><loc>{BASE}archive/</loc><changefreq>monthly</changefreq><priority>0.3</priority></url></urlset>')
