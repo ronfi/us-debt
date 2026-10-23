@@ -15,7 +15,8 @@ import markdown
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_AS_OF = '2026-09-07'          # 时效性数字刷新至(源稿刷新后改这里;须与 REPORT.md 头部一致)
-PAGE_MODIFIED = '2026-10-01'       # 页面修改日(结构化数据 dateModified / 站点地图 / 存档文件名);与数据时点分开 —— 同步新节不等于全文数字已刷新
+INCR_AS_OF = '2026-10-23'          # 文首增量刷新节(§〇)的数据日;正文主体仍按 DATA_AS_OF,两者分开标注
+PAGE_MODIFIED = '2026-10-23'       # 页面修改日(结构化数据 dateModified / 站点地图 / 存档文件名);与数据时点分开 —— 同步新节不等于全文数字已刷新
 BASE = 'https://ronfi.github.io/us-debt/'
 REPO = 'https://github.com/ronfi/us-debt'
 SITE = '美国国债研究 · US Debt'
@@ -29,7 +30,7 @@ LANG = {
     desc='美国国债研究:债务口径与期限结构、净利息复利、持有人轮换、拍卖健康度、美元与储备份额、石油美元叙事的证伪、1946-1980 金融抑制剧本与它的当代复刻(GENIUS Act / eSLR / Fed 买 bills),以及六个钉死判定源的机械触发器。全部数字标注来源等级,一手为主。',
     keywords='美国国债, 美债, 40万亿, 净利息, 金融抑制, GENIUS Act, 稳定币, 短债, T-Bill, 美元储备份额, 石油美元, 债务上限, 期限溢价, Warsh, 贬值税',
     site='美国国债研究 · US Debt',
-    asof='时效性数字刷新至', update='不定期更新(源稿刷新时同步)', source='源码与全文',
+    asof='时效性数字刷新至', incr='文首 §〇 增量刷新至', update='不定期更新(源稿刷新时同步)', source='源码与全文',
     toc='目录', built='页面生成', license='内容 CC BY-NC-ND 4.0 · 脚本 MIT',
     archive='历次版本存档', archive_href='archive/',
     switch='<span class="on" lang="zh-CN">中文</span><a href="en/" hreflang="en" lang="en">English</a>',
@@ -64,7 +65,7 @@ LANG = {
     desc='A mechanism-level audit of US federal debt: the four measures of the debt and its maturity structure, compounding net interest, the rotation in the marginal buyer, auction health, the dollar and reserve shares, the falsification of the petrodollar story, the 1946-1980 financial-repression playbook and its modern replica (GENIUS Act / eSLR / the Fed buying bills), plus six mechanical triggers with fixed adjudication sources. Every figure carries a source grade; primary sources throughout.',
     keywords='US debt, Treasury debt, 40 trillion, net interest, financial repression, GENIUS Act, stablecoins, T-bills, dollar reserve share, petrodollar, debt limit, term premium, Warsh, debasement tax',
     site='US Debt Research',
-    asof='Time-sensitive figures current to', update='Updated when the source is refreshed', source='Source and full text',
+    asof='Time-sensitive figures current to', incr='incremental refresh (§0) to', update='Updated when the source is refreshed', source='Source and full text',
     toc='Contents', built='Page built', license='Content CC BY-NC-ND 4.0 · scripts MIT',
     archive='Version archive', archive_href='../archive/',
     switch='<a href="../" hreflang="zh-CN" lang="zh-CN">中文</a><span class="on" lang="en">English</span>',
@@ -394,7 +395,7 @@ document.addEventListener('DOMContentLoaded',function(){
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600&family=Noto+Sans+SC:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>{CSS}</style></head><body>
 <header class="mast"><div class="mast-in"><h1>{H.escape(title)}</h1><nav class="lang" aria-label="language">{T['switch']}</nav>
-<div class="meta"><span>{T['asof']} <b>{DATA_AS_OF}</b></span><span>{T['update']}</span><span><a href="{REPO}">{T['source']}</a></span></div></div></header>
+<div class="meta"><span>{T['asof']} <b>{DATA_AS_OF}</b>{(' · ' + T['incr'] + ' <b>' + INCR_AS_OF + '</b>') if INCR_AS_OF else ''}</span><span>{T['update']}</span><span><a href="{REPO}">{T['source']}</a></span></div></div></header>
 <div class="wrap">
 <nav class="toc" aria-label="{T['toc']}"><div class="lbl">{T['toc']}</div><ol>{''.join(toc)}</ol><div class="legend">{legend}</div></nav>
 <main>

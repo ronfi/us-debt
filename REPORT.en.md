@@ -1,10 +1,137 @@
 # US Debt After $40 Trillion — Debt, the Dollar, and Financial Repression 2.0
 
-> **Research date**: 2026-08-30 ｜ **Time-sensitive figures current to**: **2026-09-07**; **partial refresh 2026-09-27**: T6/EFFR (EFFR to 09-24) + **2026-10-01**: T6 switched to the August core PCE (BEA 09-30 revised basis), the T3 full-window view (TIC to 2026-07), §7.5 (09-09)
+> **Research date**: 2026-10-23 (incremental refresh, see §0; first edition 2026-08-30) ｜ **Time-sensitive figures previously current to**: **2026-09-07** (§1.1 debt / §2.1 MTS / §3.1 dollar / §6 short-end engineering / §7.4 follow-up / §8.3 trigger ledger); **partial refresh 2026-09-27**: T6/EFFR (EFFR to 09-24) + **2026-10-01**: T6 switched to the August core PCE (BEA 09-30 revised basis), the T3 full-window view (TIC to 2026-07), §7.5 (09-09)
 >
-> **The conclusion in one paragraph**: total US debt passed **$40 trillion** on 2026-08-18, and net interest is growing (+10.8%) at **3.4×** the rate of net receipts (+3.2%) — compounding has taken over the fiscal path. But **the crisis will not take the shape of a default; it will take the shape of a "debasement tax"**: a 30-year auction stop of 5.216% (the highest since 2001) alongside a 5-year CDS of only 42bp is the market pricing *inflation, not hard default*. **The way out is not a future tense, it is a present participle** — stablecoins mandated into short bills (the GENIUS Act), the eSLR relaxed, the Fed buying bills again, the Treasury doubling long-end buybacks: what is being assembled is a modern replica of the 1946-1980 "financial repression" playbook. The one missing part is a **negative real policy rate** — and Warsh has turned hawkish since taking office, so the monetary and fiscal authorities are now **pulling in opposite directions at the two ends of the curve**. That is the sharpest policy conflict on the board. **The "petrodollar agreement expiring" is fiction** (there is no agreement that could expire); the real erosion is a slow variable — a 8.4pp fall in the dollar's reserve share over a decade — while stablecoins are simultaneously *re-dollarising* the world. **Timing is not forecastable** (the CBO's own words: there is no identifiable tipping point), but the conditional window is **densest in 2027-2028** (the $1.45T financing gap TBAC warned about + the next debt-limit X-date + the overlap of Dalio's and Rogoff's verbal windows).
+> **The conclusion in one paragraph**: total US debt passed **$40 trillion** on 2026-08-18, and net interest is growing (+10.8%) at **3.4×** the rate of net receipts (+3.2%) — compounding has taken over the fiscal path. But **the crisis will not take the shape of a default; it will take the shape of a "debasement tax"**: a 30-year auction stop of 5.216% (the highest since 2001) alongside a 5-year CDS of only 42bp is the market pricing *inflation, not hard default*. **The way out is not a future tense, it is a present participle** — stablecoins mandated into short bills (the GENIUS Act), the eSLR relaxed, the Fed buying bills again, the Treasury doubling long-end buybacks: what is being assembled is a modern replica of the 1946-1980 "financial repression" playbook. The one missing part is a **negative real policy rate** — and Warsh has turned hawkish since taking office, so the monetary and fiscal authorities are now **pulling in opposite directions at the two ends of the curve**. That is the sharpest policy conflict on the board. **The "petrodollar agreement expiring" is fiction** (there is no agreement that could expire); the real erosion is a slow variable — a 8.4pp fall in the dollar's reserve share over a decade — while stablecoins are simultaneously *re-dollarising* the world. **Timing is not forecastable** (the CBO's own words: there is no identifiable tipping point), but the conditional window is **densest in 2027-2028** (the $1.45T financing gap TBAC warned about + the next debt-limit X-date + the overlap of Dalio's and Rogoff's verbal windows). **🔄 10-23 refresh**: FY2026 final deficit $1.99 trillion (+12.2%), net interest $1.05 trillion (+8.4%, 2.6× the growth rate of receipts); the 30-year auction stopped at 5.618%, the highest since 2000, before the long end fell back; T1–T6 are all still untriggered (§0).
 >
 > **How to read this page**: this report predicts no dates. It pins down **mechanisms** and **falsifiable conditions**. Every figure carries a source grade (✅ primary / 🔶 primary + own calculation / ⚠ single source / ❔ widely accepted but not adversarially verified / ❌ falsified); the grades and the citation rules are in **§10.1**. The six triggers in §8.3 have fixed adjudication sources, were back-filled with their reading on the day they were registered, and are **never revised after they fire**. Throughout, where a figure is easy to misread, the wrong reading and the right one are given side by side; §10 registers the six load-bearing claims that adversarial verification overturned — that is not an appendix, it is the method. **Not investment advice.**
+
+---
+
+## 0. Incremental refresh of 2026-10-23 (10-01 → 10-23)
+
+> **This round's conclusion**: the FY2026 final accounts are in — deficit **$1.99 trillion (+12.2%)**, net interest **$1.05 trillion (+8.4%)**, gross interest **$1.36 trillion**. The long end rose in early October to its highest since 2002, then fell back. All six triggers T1–T6 are **still untriggered**. T6 is unchanged this round (September core PCE has not yet been released).
+
+### 0.1 Fiscal: FY2026 final accounts (✅ Treasury MTS, September 2026 issue, read directly from the Fiscal Data API)
+
+| Item | FY2026 | FY2025 | YoY |
+|---|---|---|---|
+| Receipts (Table 4 net receipts) | $5,403.3B | $5,234.6B | +3.2% |
+| Outlays | $7,395.8B | $7,010.0B | +5.5% |
+| **Deficit** | **$1,992.5B** | $1,775.4B | **+12.2%** |
+| **Net interest** (Table 9) | **$1,051.8B** | $970.4B | **+8.4%** |
+| Gross interest (Table 5) | $1,360.0B | $1,215.6B | +11.9% |
+| Customs duties | $173.2B | $194.9B | −11.1% |
+| Defense | $965.2B | $916.6B | +5.3% |
+| Medicare | $1,072.6B | $996.7B | +7.6% |
+
+- The deficit came in below the CBO's upward-revised $2.1T, but is still the highest in five years (🔶 relayed by several Chinese-language outlets on 10-17; consistent with the primary figure).
+- September alone ran a $26.9B deficit, against a $197.9B surplus in September last year. The gap is mainly payment timing (last September's outlays were only $345.7B, probably a calendar shift in payment dates) ⚠ not decomposed.
+- **Net interest / net receipts = 19.47%** (the full fiscal year, i.e. the rolling 12 months). The T1 threshold is 22%, **2.53pp** away — slightly lower than the 19.75% rolling value at July.
+- Net-interest growth relative to receipts growth: **2.6×** for the full year (3.4× over the first 10 months). The direction of "compounding has taken over" is unchanged; the multiple has narrowed.
+- Average interest rate on marketable debt **3.518%** (end-September, ✅ Fiscal Data `avg_interest_rates`; bills 3.788% at end-August → 3.870% at end-September). The stock is still repricing upward.
+
+### 0.2 Debt size and the debt limit (✅ debt_to_penny / DTS)
+
+| Measure | 2026-10-21 | Previous edition (09-03) |
+|---|---|---|
+| Total public debt | **$40.414T** | $40.103T |
+| Held by the public | $32.566T | $32.42T |
+| Intragovernmental | $7.847T | $7.68T |
+| Debt subject to limit | **$40.216T** | — |
+| Statutory limit | $41.104T | $41.104T |
+| Marketable (MSPD, 09-30) | $31.835T; bills $7.118T, **22.4%** of the total | $31.455T (07-31) |
+
+- On the DTS basis (total debt less unamortised discount and similar items), **true headroom is $888B**.
+- The previous edition's "headroom $997B" used "limit − total public debt". That method omits about $190bn of unamortised discount and so understated headroom. On the same basis, true headroom on 09-03 was about $1.19T.
+- Extrapolating total debt at its recent 91/182/365-day net growth rates ($8.6B / $8.0B / $6.6B per day), the $888B headroom runs out between **2027-02-01 and 2027-03-05** (⚠ projection), about two months later than the previous edition's 2026-12-07 ~ 2027-01-10. Running out ≠ the X-date; extraordinary measures are still available after that.
+
+### 0.3 Rates, real rates, spreads, the dollar (✅ FRED, to 10-21; 10-22 is intraday)
+
+| Indicator | 10-01 edition | October peak (date) | 10-21 | Note |
+|---|---|---|---|---|
+| 10Y | 5.26–5.29 | **5.31 (10-05)** | 5.13 | the peak is the highest since 2002 |
+| 30Y | 5.59 | **5.67 (10-07)** | 5.42 | above any reading since issuance resumed in 2006 |
+| 2Y | 4.89 | 4.84 (10-05) | 4.81 | |
+| Real 10Y (DFII10) | 2.91 | **2.95 (10-05)** | 2.76 | highest since 2008-11 |
+| 10Y breakeven (T10YIE) | — | 2.37 | 2.32 (10-22) | September average 2.35, essentially flat |
+| ACM 10Y term premium | — | 1.10 (10-05) | 0.99 (10-16) | |
+| HY OAS | — | 3.33 (10-20) | 3.27 | 2026 low 2.60 (08-28), +67bp cumulative |
+| IG OAS | — | 0.88 | 0.88 | |
+| DXY | 99.16 (09-05) | 102.58 (10-12) | 101.67 (10-22) | +3.5% year to date (✅ local DXY series) |
+| EFFR | 3.88 | — | 3.88 | October average 3.88 |
+
+- **Reading one**: the early-October rise in the long end was driven mainly by real rates and the term premium, not inflation expectations. The 10Y breakeven stayed within 2.32–2.37 throughout.
+- **Reading two**: the long end fell sharply on 10-22. Intraday data (akshare) put the 10Y at about **4.96%** and the 30Y at about 5.29% (⚠ not the FRED fixing; to be checked the next day). Mainstream media attributed it to a haven bid triggered by "AI spending worries" after Meta's results (🔶 FT / Yahoo headlines). Oil was reported above $110 the same day (🔶 headline level). ⇒ **This fall in the long end came from an equity haven bid, not from any improvement in the fiscal picture or in inflation expectations.**
+- **Reading three**: in September–October the dollar **strengthened together with** Treasury yields (DXY 99 → 102). That differs from §7.4's "the dollar has not strengthened" at the time; the "debasement trade" paused this quarter.
+
+### 0.4 Auctions (✅ Fiscal Data `auctions_query`; PD share = primary-dealer allotment / total accepted, own calculation)
+
+| Date | Security | Stop yield | Bid-to-cover | PD allotment | Indirect allotment |
+|---|---|---|---|---|---|
+| 09-09 | 10Y reopening $39B | 4.834% | 2.71 | 4.3% | 79.0% |
+| 09-10 | 30Y reopening $22B | 5.308% | 2.61 | 2.2% | 79.3% |
+| 09-15 | 20Y reopening $13B | 5.420% | 2.57 | 16.7% | 52.1% |
+| 10-07 | 10Y reopening $39B | **5.300%** | 2.77 | 2.5% | 77.8% |
+| 10-08 | 30Y reopening $22B | **5.618%** | 2.54 | 6.6% | 70.4% |
+
+- The 10-08 30Y stop of 5.618% is the **highest since 2000-08 (5.697%)** (✅ checked in the same API).
+- The tail was about +0.1bp (when-issued 5.617%, 🔶 as relayed by media); media put PD at 6.8% and indirect at 72.3% (a different denominator).
+- The 10-21 20Y reopening: media say it stopped at 5.469%, a record for the tenor (⚠ headline level; not yet in the API).
+- **T2 call**: in every ≥10-year auction in September–October the PD allotment stayed below 17% and tails were small. **Not triggered**. "Price clearing instead of quantity refusal" (§1.4) holds again.
+
+### 0.5 Holders (✅ TIC `slt_table5` current table, data to 2026-08, released 10-16)
+
+| Holder | 2026-08 | 2026-07 | Monthly change | Note |
+|---|---|---|---|---|
+| Total foreign | $9,331.7B | $9,248.4B | +83.3 | +$82.6B YoY |
+| Foreign official | $3,755.6B | $3,773.1B | −17.5 | −$164.2B YoY; official bill holdings $312B (July $354B) |
+| Japan | **$1,068.3B** | $1,103.9B | **−35.6** | **−$171.0B** cumulative from the February peak |
+| United Kingdom | **$1,009.5B** | $998.3B | +11.2 | above $1 trillion for the first time |
+| Mainland China | **$590.7B** | $618.0B | −27.3 | media call it an 18-year low (🔶) |
+
+- Media say foreigners were net buyers of $108.9bn of Treasuries in August, ending July's net selling (🔶 relayed by a single article; the flow table was not obtained).
+- **T3 call**: Japan's August −$35.6B is short of the −$50B leg. **Not triggered**. Flow confirmation for May's −$66.8B leg is still outstanding.
+- **Direction**: Japan has fallen for four straight months, May–August (−66.8 / −26.4 / −12.8 / −35.6), and the decline widened again in August. "Officials selling, private buyers adding" (§1.3) still holds, by a growing margin.
+- On the Japanese side: the BOJ raised rates to 1.25% in September (🔶 Cailianshe / JRJ); it is expected to hold in October and possibly hike again in December (🔶 Reuters poll headline). The 10Y JGB reached 3.115% on 10-06 and fell back to 2.78% on 10-23 (🔶 Cailianshe flash).
+
+### 0.6 Progress on the Fed's and the Treasury's "short-end engineering"
+
+- **The Fed's reserve-management purchases (RMP) are paused.** They were paused in August and September and extended to mid-October (🔶 Bloomberg and other headlines, 09-14); the New York Fed's Perli said on 09-22 that it "depends on market conditions" (🔶).
+- Primary check: SOMA Treasury holdings rose only +$20.3B from 09-02 to 10-21 (4,552.3 → 4,572.7), bills +$19.5B (✅ H.4.1 / FRED `TREAST`, `WSHOBL`). That is only on the scale of MBS-runoff reinvestment (the 10-15 ~ 11-13 schedule is about $14.6bn, 🔶 headline).
+- **Treasury long-end buybacks enlarged**: the per-operation cap rose to **$6bn** (previous edition $4bn). One operation on 09-24 received $10.47bn of offers and accepted only $4.08bn; one on 10-08 accepted the full $6bn (🔶 Newsquawk / Reuters and other headlines).
+- On 10-16 the Treasury sent out its quarterly refunding survey. The survey did not explicitly mention cutting long-bond sizes, and the 10Y rose back to 5.12% that day (🔶 Wallstreetcn). Citi expects the 11-04 refunding to cut the 20Y and 30Y by $3bn each; TD thinks an adjustment would come no earlier than 2027-02 (🔶).
+- **T5 call**: a cap rising from $4bn to $6bn is **1.5×, not "doubling again"**, and use of the TGA has not been announced. **Read literally, not triggered** — but the direction is escalation. The 11-04 refunding announcement is the next decision point.
+
+### 0.7 T6 and inflation
+
+- September CPI **3.72%**, core CPI **2.57%** (✅ FRED; August 2.45%). Core CPI rose 0.12pp.
+- September core PCE has **not yet been released** (✅ FRED `PCEPILFE` still ends at August, revised basis 3.01%). ⚠ The release date was not checked this round (the previous edition got the release date wrong twice).
+- **T6 = EFFR 3.88 − core PCE 3.01 = +0.87pp**, the same as on 10-01. Not triggered.
+- If September core PCE follows core CPI up by about 0.1pp, T6 would narrow to about +0.75pp (⚠ projection, not a forecast).
+
+### 0.8 Calls on decision points that have come due
+
+| Decision point | Registered in | Status |
+|---|---|---|
+| 10-28 FOMC: if the Fed holds and the long end does not fall back, breakpoint 3 becomes a watch item | §8.3c | **Still pending** (the meeting is five days away). ⚠ The premise has already changed: the long end fell from 5.31 to about 4.96–5.13 before the meeting |
+| September core PCE to refresh T6 | §8.3 | **Still pending** (not yet released by BEA) |
+| T1 (next MTS) | §8.3 | **Called: not triggered**, 19.47% (2.53pp away) |
+| T2 (September–October long-end auctions) | §8.3 | **Called: not triggered** |
+| T3 (August TIC) | §8.3 | **Called: not triggered** (Japan −$35.6B) |
+| T4 (COFER) | §8.3 | **Still pending**: 2026Q2 COFER not checked this round |
+| T5 | §8.3 | **Not triggered** (cap 1.5×, not doubling); re-check on 11-04 |
+| 11-04 quarterly refunding announcement | newly registered | Pending: if cuts to 20Y/30Y sizes are announced, "fiscal-side quasi-YCC" (§6.2) steps up a notch |
+
+### 0.9 Corrections to the previous edition
+
+1. **Debt-limit headroom**: the original call was "headroom $997B, ceiling reached 2026-12-07 ~ 2027-01-10" → now: on the DTS debt-subject-to-limit basis, headroom was $888B on 10-21, and extrapolation puts the ceiling in 2027-02 ~ 03 → basis: the original method did not deduct unamortised discount (about $190bn) and understated headroom. See §1.1.
+2. **Gross interest "expected to exceed $1.4T for the year"** → actual FY2026 is **$1.360T** → basis: MTS Table 5 final accounts. See §2.1.
+3. **"Net interest is growing at 3.4× the rate of receipts"** → on a full-year basis it is **2.6×** (+8.4% vs +3.2%) → basis: FY2026 final accounts; 3.4× was the first-10-months figure. The direction of the conclusion is unchanged.
+4. **"The Fed's return to buying bills" as one of the three pieces of short-end engineering (§6.1, §1.3)** → now: RMP has been paused since August; SOMA bills rose only $19.5bn in seven weeks → basis: H.4.1 primary data plus media headlines. This piece should change from "in place" to "in place, currently paused".
+5. **USDCNY 6.72 (§3.1)** → **6.6743** on 10-22 (✅ ECB), a renminbi appreciation of about 4.9% year to date. The exchange-rate headwind for exporters keeps deepening.
+6. **"The dollar debasement trade" (§3)** → in September–October the DXY rose from 99 to 102, the dollar strengthening together with Treasury yields. This quarter does not support reading the "debasement trade" as continuing.
+
 
 ---
 
@@ -17,7 +144,7 @@
 | **Total public debt** | **$40.103T** (08-27: $40.078T) | held by the public **$32.42T** + intragovernmental **$7.68T**; **first crossed $40T on 08-18** ✅ Fiscal Data API `debt_to_penny` |
 | **Debt held by the public** | **$32.42T** | this is the numerator in CBO's debt/GDP (about 101% for FY2026) |
 | **Marketable debt** | $31.455T (07-31; MSPD is monthly and not yet updated) | Bills $6.99T / Notes $16.17T / Bonds $5.49T / TIPS $2.15T / FRN $0.65T ✅ MSPD |
-| Debt subject to limit | ceiling $41.1T, **headroom $997B** | the OBBBA embedded +$5T; 🔴 **extrapolating the last 91/182/365-day net growth rates puts the ceiling date at 2026-12-07 ~ 2027-01-10 — almost exactly on the seating of the new Congress (2027-01-03)** |
+| Debt subject to limit | ceiling $41.1T, **headroom $997B** (⚠ corrected in §0.2: headroom $888B on 10-21 on the DTS basis) | the OBBBA embedded +$5T; 🔴 **extrapolating the last 91/182/365-day net growth rates puts the ceiling date at 2026-12-07 ~ 2027-01-10 — almost exactly on the seating of the new Congress (2027-01-03)** |
 
 Treasury Secretary Bessent, 08-20: "there is no magic to the number $40 trillion." Rhetorically true; arithmetically, see §2.
 
@@ -77,7 +204,7 @@ Treasury Secretary Bessent, 08-20: "there is no magic to the number $40 trillion
 | — Japan (largest) | $1,116.7B | **-$123B over the four months from the February peak** — the largest single-holder move of 2026 |
 | — China (third) | $633.4B | **lowest since the Lehman month of 2008-09**, -$98B y/y |
 | — UK (up to second) | $939.9B | +$84B y/y; Belgium + Luxembourg together $917B ≈ China's direct holdings |
-| Fed (SOMA) | $4,545.7B | after QT ended on **2025-12-01**, +**$343B in nine months, essentially 100% bills** (+$346B) ✅ H.4.1 |
+| Fed (SOMA) | $4,545.7B | after QT ended on **2025-12-01**, +**$343B in nine months, essentially 100% bills** (+$346B) ✅ H.4.1 (⚠ corrected in §0.6: reserve-management purchases paused since August; only +$20B from 09-02 to 10-21) |
 | Money market funds | $3,426B (2026Q1) | already the second-largest single holding sector, the mirror image of bill supply |
 
 **Three readings**:
@@ -108,7 +235,7 @@ Treasury Secretary Bessent, 08-20: "there is no magic to the number $40 trillion
 - **Net interest**: FY2025 **$970.4B = 18.5% of receipts**, already above defence; $931.4B in the first 10 months of FY2026, **+10.8% — 3.4× the growth of net receipts (+3.2%)** (⚠ caliber: using **gross** receipts as the denominator gives 2.7×; this report uses **net** receipts throughout);
 - 🔄 **09-07 refresh**: the latest MTS period is still **2026-07-31** (the August report lands around 09-11) ⇒ the readings in this section and T1 are **unchanged this period**. ✅ **The registered value was independently recomputed and confirmed**: rolling 12 months (2025-08 → 2026-07) net interest **$1,061.0B** / net receipts **$5,373.3B** = **19.75%**, matching the 19.7% registered in §8.3;
   ⚠ **Caliber pinned down (a trap this recomputation exposed, now written into the criterion)**: the denominator of T1 **must** be **MTS Table 4's `current_month_net_rcpt_amt` (net receipts, refunds already deducted)**. Using Table 1's monthly receipts field instead gives $5,180.2B → 20.48%; using Table 4's **gross** gives $5,900.4B → 17.98% — **one word, "receipts", three measures, three answers, sitting 2.25 / 1.52 / 4.02pp from the threshold**. Filed under the error family "two different tables behind one indicator name";
-- **Gross interest**: $1,170B in the first 10 months of FY2026, on track to exceed **$1.4T** for the year (⚠ do not mix gross and net: gross includes interest paid to intragovernmental accounts).
+- **Gross interest**: $1,170B in the first 10 months of FY2026, on track to exceed **$1.4T** for the year (⚠ corrected in §0.9: the final figure is $1.360T) (⚠ do not mix gross and net: gross includes interest paid to intragovernmental accounts).
 
 <div style="overflow-x:auto;margin:1.1em 0;"><svg viewBox="0 0 860 430" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;background:#0d1117;border:1px solid rgba(255,255,255,.08);border-radius:6px;">
 <text x="64" y="24" fill="#edf1f6" font-size="15" font-weight="bold">Net interest vs federal receipts: y/y growth (left axis) and net interest as a share of receipts (right axis, gold bars)</text>
