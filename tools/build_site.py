@@ -16,7 +16,7 @@ import markdown
 ROOT = Path(__file__).resolve().parent.parent
 DATA_AS_OF = '2026-09-07'          # 时效性数字刷新至(源稿刷新后改这里;须与 REPORT.md 头部一致)
 INCR_AS_OF = '2026-10-23'          # 文首增量刷新节(§〇)的数据日;正文主体仍按 DATA_AS_OF,两者分开标注
-PAGE_MODIFIED = '2026-10-23'       # 页面修改日(结构化数据 dateModified / 站点地图 / 存档文件名);与数据时点分开 —— 同步新节不等于全文数字已刷新
+PAGE_MODIFIED = '2026-10-26'       # 页面修改日(结构化数据 dateModified / 站点地图 / 存档文件名);与数据时点分开 —— 同步新节不等于全文数字已刷新
 BASE = 'https://ronfi.github.io/us-debt/'
 REPO = 'https://github.com/ronfi/us-debt'
 SITE = '美国国债研究 · US Debt'

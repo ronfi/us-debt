@@ -1026,6 +1026,84 @@ The words in the question that should change: "must" → **"the structural bid d
 
 ---
 
+### 7.7 🔴 The asset-inflation path: can "pushing up the stock market" replace the debasement tax? (added 2026-10-26)
+
+> **The proposition (raised 2026-10-25)**: most American wealth is in the stock market. As long as stocks keep rising, the dollar need not debase in nominal terms — measured against stocks, the dollar has already "debased"; convert the $40 trillion of Treasury debt into units of the US stock index, and hasn't it been falling for more than a decade?
+> **The verdict up front**: true on the data, but not a fourth path as a mechanism. It is the **stock-market outlet** of §6b's "Financial Repression 2.0": the dollar debases not against goods but against assets. The cost is borne by people without assets, the beneficiaries are shareholders, and the Treasury gets only a small cup; and the low-rate condition it requires is exactly the one missing today.
+
+#### 7.7.1 Checking the proposition first: priced in stocks, the debt really is "falling" (✅ reproducible from FRED)
+
+| Date | Federal debt | S&P 500 | Debt ÷ index (100m "units") | Debt / total stock-market value | Debt / GDP |
+|---|---|---|---|---|---|
+| End-2007 | $9.2tn | about 1,550 | 59 | **35%** | 63% |
+| Early 2009 | $11.1tn | about 800 | 139 | 76% | 77% |
+| End-2016 | $20.0tn | 2,239 | 89 | 51% | 105% |
+| End-2021 | $29.6tn | 4,766 | 62 | 37% | 119% |
+| Mid-2026 | $39.5tn | 7,757 (10-21) | 51 | **32%** | **121%** |
+
+Definitions: debt FRED `GFDEBTN`; total stock-market value FRED `BOGZ1LM893064105Q` (corporate equities held by all sectors, market value); nominal GDP. The 2007/2009 index levels are widely accepted facts (❔).
+
+- **In index units**: the debt is 63% below its 2009 peak, but only 14% below 2007. "Falling for more than a decade" broadly holds, starting from the 2009 trough.
+- **Against total stock-market value**: 35% → 32%, **essentially unchanged**; over the same period debt/GDP doubled.
+- ⇒ The stock market really has "absorbed" the $30 trillion of debt added since 2007. The data part of the proposition holds.
+
+#### 7.7.2 Stocks do not repay debt; taxes do — the Treasury has only three revenue pipes
+
+The debt is denominated in dollars and repaid out of fiscal revenue. Stock-market value is not a Treasury asset; it becomes fiscal revenue only through three pipes:
+
+**① Capital-gains tax — real, but it collects only about 20% and is highly pro-cyclical** (✅ Treasury Office of Tax Analysis historical table 1954–2014; IRS SOI Table 1.4 for 2021–2023)
+
+| Year | Realised capital gains | Capital-gains tax | Effective rate | Context |
+|---|---|---|---|---|
+| 1995 | $180.1bn | $44.3bn | 24.6% | start of the bull market |
+| 2000 | **$644.3bn** | **$127.3bn** | 19.8% | dot-com top |
+| 2002 | $268.6bn | $49.1bn | 18.3% | after the bust, tax −61% |
+| 2007 | $924.2bn | $137.1bn | 14.8% | pre-subprime top |
+| 2009 | $263.5bn | $36.7bn | 13.9% | tax −73% |
+| 2021 | **$2,048.8bn** (net taxable gains) | — (tax not shown separately in the IRS table) | — | record high |
+| 2022 | $1,269.8bn | — | — | −38% |
+| 2023 | $966.2bn | — | — | −53% over two years |
+
+- **Half of the 1998–2001 fiscal surpluses came from here**: the FY2000 surplus was $236.2bn (✅ FRED `FYFSD`) and capital-gains tax that year was $127.3bn, 54% of it. This is the closest history has come to "the stock market paying down the debt".
+- **It reverses just as fast**: federal receipts fell from $2.03 trillion to $1.78 trillion between FY2000 and FY2003 (−12%), and from $4.90 trillion to $4.44 trillion between FY2022 and FY2023 (−9%) — the CRFB described the 2022 receipts peak outright as a "one-off" from the 2021 surge in capital gains (🔶).
+- The $2.05 trillion realised in 2021 was 3.2× the 2000 figure, but was cut in half within two years. **Relying on it to repay debt means pegging fiscal revenue to stock-market volatility.**
+
+**② The wealth effect**: stocks up → consumption → nominal GDP → tax base. Indirect, lagged, and only for households that hold stocks.
+**③ Direct government holdings**: the federal government holds no stocks. The 2025 sovereign wealth fund idea pointed in that direction, but has not materialised (🔶).
+
+⇒ Across all three pipes, what the Treasury collects from each dollar of added stock-market value is far smaller than inflation's direct dilution of the existing debt. **For the Treasury, asset inflation is an "inefficient tax".**
+
+#### 7.7.3 Why it does not work now: all four conditions have changed
+
+| Condition | 2010–2021 (when the path worked) | October 2026 |
+|---|---|---|
+| Rates | Fed funds 0–0.25%, 10Y 1–2% | Fed funds 3.88%, 10Y 4.96% (10-22, ✅ Treasury curve) |
+| Valuation | Shiller PE 15 → 30 | **40.4** (✅ multpl, 10-25), the second-highest on record |
+| Earnings yield vs Treasuries | 5–6% vs 1–2%, a positive spread | **2.5% vs 5.0%, a negative spread** |
+| The arithmetic of government borrowing to buy stocks | borrow at 2% to buy a 5–6% yield, positive carry | borrow at 5% to buy a 2.5% yield, **negative carry** |
+
+- **The path needs low rates.** Stocks could keep rising through 2010–2021 half because valuations expanded from 15× to over 30×, which presupposed zero rates. Pushing on from 40× requires either earnings to double or rates to fall a long way; a big fall in rates in turn requires financial repression — which brings us back to the T6 ignition condition in §6.2.4. **So it is not a substitute for the debasement tax but the stock-market outlet of the same machine.**
+- **The literal version, "swap the Treasuries for the stock index", now has inverted arithmetic**: in 2012 the earnings yield of 5% exceeded the 1.8% Treasury yield, so government borrowing to buy the index had a positive spread; today it would be borrowing at 5% to buy 2.5%.
+- **The budget held hostage by the stock market**: if fiscal sustainability rests on stocks, the Fed put turns into a Treasury put. AI-related stocks are more than 40% of the S&P 500's market value, which amounts to hanging the budget on the AI bubble not bursting — **the bubble turns from a market problem into a load-bearing wall**. Within this report's §8 conditional window, that would upgrade "a 25% stock drawdown" from an asset-price event into a fiscal event.
+
+#### 7.7.4 Distribution decides its political lifespan
+
+- The top 1% hold **50.9%** of US corporate equities (2026Q2, ✅ FRED / Fed Distributional Financial Accounts `WFRBST01122`; 49.5% at end-2007); the top 1%'s share of net worth rose from 29.0% to 32.5%, while the bottom 50% hold only 2.3% (✅ same source).
+- For shareholders, rising stocks are "dollar debasement"; for people living on wages and deposits they are a real transfer of purchasing power — **this is exactly a debasement tax, except that the tax base has shifted to people without assets, the tax is paid to shareholders, and the Treasury only gets its cut through pipes ①②③.**
+- The original 1946–1980 playbook (§6.2.1) taxed creditors and the Treasury benefited directly; in the asset-inflation version the beneficiary is not the Treasury. A "solution" from which the median voter gets nothing and the Treasury not much will invite a wealth tax, higher capital-gains tax or a populist backlash — and those backlashes would themselves interrupt the stock-market rise.
+
+#### 7.7.5 Precedent: Japan
+
+The BOJ began buying ETFs in 2010 and holds about ¥37 trillion at book value (⚠ not re-checked this round), and the Nikkei tripled; but the decline in Japan's debt ratio came in 2021–2026 (IMF: 228.8% → 199.4%), and it came from inflation, not the stock market. **The stock market has never paid down any country's debt.**
+
+#### 7.7.6 Wiring it into this report's framework
+
+1. **The data part of the proposition goes into the §1.1 definitions table**: debt / stock-market value of 32% is a fifth example of "total debt is not one thing" — it describes the position of shareholders, not the position of the budget.
+2. **Path classification**: asset inflation = the asset-side expression of Financial Repression 2.0, **not listed as a new path**; it shares the T6 precondition with the four ignition paths in §6.2.4.
+3. **A correction to the §8 conditional window**: annotate the "25% stock drawdown" condition — if fiscal revenue's dependence on capital gains returns to its 2021 level (realisations / GDP ≈ 8.7%), that condition would also trigger a revenue shock, pulling the window forward.
+
+**Evidence boundary**: the 2021–2023 IRS table reports "net taxable gains", which differs slightly from the Treasury table's "realised gains" (the former is after deductible losses), so the two are not placed in one column for year-on-year comparison; IRS Table 1.4 does not show 2021–2023 capital-gains tax separately, so no primary figure was obtained; "the top 10% hold about 90% of equities" is a commonly cited figure not checked against a primary source this round, so the text uses only the top 1%'s 50.9%.
+
 ## 8. Forecasting the timing: an honest framework (conditional windows, not dates)
 
 ### 8.1 The academic floor: the timing is not forecastable
